@@ -1,0 +1,74 @@
+doctype html
+html
+  head
+    title Student CRUD
+
+    style.
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f7fc;
+        margin: 20px;
+      }
+
+      h1 {
+        color: #2c3e50;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 80%;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+
+      th {
+        background-color: #3498db;
+        color: white;
+        padding: 12px;
+      }
+
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      button {
+        background-color: #e74c3c;
+        color: white;
+        border: none;
+        padding: 7px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      input {
+        padding: 8px;
+        width: 250px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+  body
+
+    div(style="margin-bottom:20px; background:#2c3e50; padding:15px; border-radius:8px;")
+      a(href='/' style="background:#3498db; color:white; padding:8px 15px; border-radius:5px; margin-right:10px;") Home Page
+
+      a(href='/about' style="background:#e67e22; color:white; padding:8px 15px; border-radius:5px; margin-right:10px;") About Us
+
+      a(href='/contact' style="background:#16a085; color:white; padding:8px 15px; border-radius:5px; margin-right:10px;") Contact Us
+
+      a(href='/add' style="background:#2ecc71; color:white; padding:8px 15px; border-radius:5px; margin-right:10px;") Add Student
+
+      a(href='/students' style="background:#9b59b6; color:white; padding:8px 15px; border-radius:5px;") List of Students
+
+    p(style="color:gray; font-size:18px;") 18th May
+
+    block content
